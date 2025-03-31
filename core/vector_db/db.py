@@ -19,7 +19,7 @@ class VectorDB:
     
     def save_vector_db(self, filename):
         """saves the vector database to a file"""
-        faiss.write_index(self.index, filename)
+        faiss.write_index(self.index, "./"+filename)
     
     def load_vector_db(self, filename):
         """loads the vector database from a file"""

@@ -242,12 +242,12 @@ def search_index(query_str):
                 else:
                     print("No content field available")
                 print("---")
+            return results
     except Exception as e:
         print(f"Error searching index: {e}")
         import traceback
         traceback.print_exc()
 
-# Example usage
 if __name__ == "__main__":
     query = "Harry Potter"  # Your search query
     print(f"Starting crawl for query: '{query}'")

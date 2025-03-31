@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: Tools_for_LMs
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: googlesearch-python==1.3.0
+Requires-Dist: whoosh==2.7.4
+Requires-Dist: torch==2.6.0
+Requires-Dist: faiss-cpu
+Requires-Dist: sentence-transformers
+Dynamic: license-file
+Dynamic: requires-dist
